@@ -1,0 +1,123 @@
+body
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 2%;
+
+}   
+
+
+canvas
+{
+    border: 1px solid black;
+}
+#Tools
+{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 790px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+input[type="color"]
+ {
+    width: 2.9rem;
+    height: 3rem;
+    padding: .5rem;
+    background-color: white;
+    border: 0;
+}
+
+input[type="color"]::-webkit-color-swatch 
+{
+    border: none;border-radius:100%;
+}
+
+
+#Main
+{
+    display: flex;
+}
+
+#Chat
+{
+    margin-left: 10px;
+    width: 200px;
+
+}
+#MSGS
+{
+    height: 87.5%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+#Tinp
+{
+    margin-top: 6.7%;
+    width: 192px;
+    height: 9.7%;    
+    border: 1px solid black;
+    font-size: 1.8rem;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+#players
+{
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+.Player
+{
+    display: flex;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 8px;
+}
+
+#players .Player:nth-child(odd)
+{
+    background-color: #EEEEEE;
+}
+#players .Player:nth-child(even)
+{
+    background-color: #fafafa;
+}
+
+.Score
+{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.Name
+{
+    margin-left: 5px;
+}
+
+
+.MSG
+{
+    display: flex;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid black;
+    align-items: center;
+}
+.ChatName
+{
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+.MsgCont
+{
+    margin-top: 21px;
+}

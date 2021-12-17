@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+
+html,body
+{   
+    background-color: #F2F2F2;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.Inp
+{
+  width: 60%;
+  height: 100%;
+  background: white;
+  outline: none;
+  padding: 0 60px 0 20px;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 3px;
+
+}
+
+#Container
+{
+    max-width: 60%;
+    background-color: white;
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+    border-radius: 3px;
+
+}
+
+#Join
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.But
+{ 
+    width: 75%;
+    height: 100%;
+    background-color: #2EE59D;
+    border: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    padding: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s;
+    border-radius: 3px;
+}
+
+#New
+{
+    background-color: #35DBE9;
+}
+#New:hover
+{
+    box-shadow: 0px 15px 20px rgba(60, 212, 226, 0.4);
+}
+.But:hover
+{
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.TXT
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(61, 61, 61);
+}
+
+@media only screen and (max-width: 600px)
+{
+    .Inp
+    {
+        width: 40%;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    #Container
+    {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    #Join
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

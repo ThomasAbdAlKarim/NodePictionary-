@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="Drawer.js"></script>
+    <script src="Code.js" defer></script>
+    <link rel="stylesheet" href="Canv.css">
+</head>
+<body>
+    <div id="PopCont">
+        <div id="Pop">
+            <div id="Content">
+                <h2>The Word Was: Dog</h2>
+                <h3>Next Drawer</h3>
+                <h1>BEN</h1>
+            </div>
+            
+        </div>
+    </div>
+    <div id="Main">
+    <div id="players">
+    </div>
+
+    <div id="Draw">
+        <div id="Tools">
+            <br>
+            <input type="color" id="CPick">
+            <input type="range" id="TPick" min="1" max="100">
+            <button id="Start">Start</button>
+            <h2 id="Word"></h2>
+            <h3 id='Timer'>0</h3>
+        </div>
+    </div>
+    <div id="Chat">
+        <div id="MSGS">
+        </div>
+        <input type="text" id="Tinp" placeholder="Answer">
+    </div>
+    </div>
+</body>
+</html>
